@@ -1,0 +1,232 @@
+/* ==================================================================
+CSS BASE RESET
+===================================================================*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+div, svg, img {
+	position: absolute;
+/*	pointer-events: none;*/
+}
+
+
+#container {
+	top: 0px;
+	left: 0px;
+	width: 300px;
+	height: 250px;
+	display: block;
+	position: relative;
+	cursor: pointer;
+	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+	overflow: hidden;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    
+}
+
+#banner {
+	top: 0px;
+	left: 0px;
+	width: 300px;
+	height: 250px;
+	display: block;
+	overflow: hidden;
+
+}
+
+
+/* ---------------------------------------------------------------------------------
+   TEXTUREPACKER Sprite
+  --------------------------------------------------------------------------------- */
+
+
+.sprite {display:inline-block; overflow:hidden; background-repeat: no-repeat;background-image:url(sprite_300x250.png);}
+
+.cta {width:300px; height:96px; background-position: -1px -175px}
+.ctaTxt {width:236px; height:30px; background-position: -1px -144px}
+.txt1 {width:131px; height:57px; background-position: -1px -1px}
+.txt2 {width:155px; height:128px; background-position: -133px -1px}
+.txt3 {width:193px; height:13px; background-position: -1px -130px}
+
+
+
+
+
+
+
+/* ---------------------------------------------------------------------------------
+  Content
+  --------------------------------------------------------------------------------- */
+
+
+#banner {
+    display: block;
+    position: relative;
+    width: 300px;
+    height: 250px;
+    overflow: hidden;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e4edf5+0,ffffff+100 */
+    background: #000000;
+    
+}
+#bg{
+	position: absolute;
+	background: url('bg.jpg') no-repeat 0px 0px;
+	width: 300px;
+	height: 250px;
+
+}
+
+#txt1{
+	left: 125px;
+    top: 0px;
+}
+
+#txt2{
+    top: 34px;
+    left: 113px;
+}
+#txt3{
+    top: 226px;
+    left: 52px;
+}
+
+
+
+
+
+/* ---------------------------------------------------------------------------------
+  CTA
+  --------------------------------------------------------------------------------- */
+#cta {
+    bottom: 9px;
+    left: 0px;
+   
+    overflow: hidden;
+
+   
+    z-index: 3;
+    
+    
+}
+#ctaTxt {   
+    top: 28px;
+    left: 33px;
+}
+
+#shine {
+	  position: relative;
+	  top: 24px;
+    width: 300px;
+    height: 41px;
+    right: 0px;
+    background-repeat: no-repeat;
+    background-image: rgba(0,155,186,0);
+    background-image: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(0,155,186,0)), color-stop(53%, rgba(255,255,255,0.5)), color-stop(100%, rgba(0,155,186,0)));
+    background-image: linear-gradient(135deg, rgba(0,155,186,0) 0%, rgba(255,255,255,0.5) 53%, rgba(0,155,186,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009bba', endColorstr='#009bba', GradientType=1 );
+    background-position: -100px 0;
+    text-decoration: none;
+    border: 0;
+    transform: skewY(-4deg);
+}
+    
+
+ 

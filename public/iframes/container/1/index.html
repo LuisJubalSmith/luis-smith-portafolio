@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="ad" onclick="window.open(window.clickTag)">
+            <div id="banner" style="visibility: hidden;">
+
+                <div id="bg"></div>
+                <div id="txt1" class="txt1 sprite"></div>
+
+                <div id="txt2" class="txt2 sprite"></div>
+                <div id="txt3" class="txt3 sprite"></div>
+
+
+                <div id="cta" class="cta sprite">
+                    <div id="ctaTxt" class="ctaTxt sprite"></div>
+                    <div id="shine"></div>
+                    <div id="ctaBtnOver"></div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript">
+        var clickTag = "index.html";
+
+        function checkGreensockReady() {
+            if (window.TimelineMax) {
+                startAd();
+            } else {
+                setTimeout(checkGreensockReady, 50);
+            }
+        }
+        window.onload = checkGreensockReady;
+    </script>
+</body>
+
+</html>

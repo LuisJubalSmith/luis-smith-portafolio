@@ -1,0 +1,501 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.icons
+{
+  /*display: inline-block;*/
+  padding: 7px;
+  /*position: relative;*/
+
+  
+}
+
+.nro
+{
+  padding: 0px;
+}
+
+.parallax 
+{ 
+    /* The image used */
+    /*background-image: url("img_parallax.jpg");*/
+
+    /* Set a specific height */
+    /*height: 500px; */
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg
+{   
+   background: #D8D8D8;
+	
+}
+
+.menu 
+{
+	font-size: 20px;
+	font-family: helvetica;
+	line-height: 20px;
+	display: inline-block;
+}
+
+.menu2 
+{
+	font-size: 15px;
+	font-family: helvetica;
+	line-height: 20px;
+	display: inline-block;
+	width: 200px;
+	text-align: left;
+	color: #fff;
+}
+
+.navbar 
+{
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 14px;
+      letter-spacing: 5px;
+      color:#000;
+}
+.navbar-nav li a{
+  /*color:#fff;*/
+  text-decoration: none; /* links sin subrayado*/
+  line-height: 20px;
+  font-size: 16px;
+  padding: 15px 10px 15px 10px;
+  /*opcion extra con boton el menu */
+  /*color:#fff !important;
+  background-color:purple; */
+}
+  .navbar-nav  li a:hover {
+      color:#fff !important;
+      background-color: #947054 !important;
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+.texto 
+{
+	position: relative;
+	color: #6E6E6E;
+	text-align: center;
+	font-weight: 400;
+}
+
+.titulos1
+{
+    font-size: 80px;
+    
+}
+
+.titulos2
+{
+	font-size: 30px;
+}
+
+.titulos3
+{
+	font-size: 20px;
+}
+
+.titulos4
+{
+	font-family: helvetica;
+	font-size: 10px;
+	line-height: 15px;
+    letter-spacing: 2.5px;
+    display: inline-block;
+    padding: 10px;
+}
+
+
+.titulos5
+{
+	font-family: helvetica;
+	font-size: 15px;
+	line-height: 18px;
+}
+
+.titulos6
+{
+	font-family: helvetica;
+	font-size: 25px;
+	margin-top: 20px;
+	
+}
+
+.parrafo
+{
+	font-family: helvetica;
+	font-size: 13px;
+	line-height: 15px;
+	
+
+}
+
+.margin
+{
+    margin-bottom: 60px;
+
+}
+
+.margintop
+{
+	margin-top: 30px;
+
+}
+
+
+.margintop2
+{
+	/*margin-top: 15px;*/
+	padding: 17px;
+
+}
+
+.googlemap
+{
+	height: 300px;
+}
+
+.fijo
+{
+    position: sticky; 
+    position: fixed; 
+    max-width: 100%;
+    z-index: 1000;
+    height: 80px;
+ }
+
+
+.fondo1
+{ 
+    background-color: #e2e2e2; 
+    color: #000000;
+}
+
+.fondo2 
+{ 
+    /*background-color: #D8D8D8; */
+    height: 400px;
+}
+.fondo3 
+{ 
+    background-color: #ffffff;
+    color: #555555;
+}
+.fondo4 
+{ 
+    background: url("../img/bg-footer.png"); 
+    color: #fff;
+}
+
+.fondo5
+{
+  width: 1292px; 
+  background-color: black;
+}
+
+.carrusel2
+{
+	height: 200px;
+	padding: 40px;
+	margin-top: 100px;
+	position: relative;
+   
+}
+/*nav 
+{
+	overflow: hidden;
+}*/
+
+body 
+{
+	font-family: "Oswald", sans-serif, helvetica, arial;
+	/*background: url("../img/bg3.jpg");*/
+	background-size: cover;
+	background-attachment: fixed;
+}
+/*
+h2 p 
+{
+	background: rgba(0,0,0,.8);
+	display: inline-block;
+	padding: 10px 20px;
+}*/
+
+h2 
+{
+	font-size: 40px;
+	letter-spacing: 2,5px;
+	font-weight: normal;
+}
+
+p 
+{
+	font-size: 20px;
+	letter-spacing: 2.5px;
+}
+
+/*
+li:hover
+{
+	background: rgba(0,0,0,.8);
+	border-bottom: inset 5px solid #fff;
+	display: block;
+	width: 15%;
+}*/
+
+.lista
+{
+  margin-left: 15px;
+}
+
+/*.lista:hover
+{
+	color: #fff;
+	display: block;
+  margin-left:10px; 
+  width: 10%;
+	background: rgba(0,0,0,.8);
+	border-bottom: inset 5px solid #fff;
+	transition: all ease-in 1s;
+  color: #fff !important;
+  background-color: blue !important;
+}*/
+
+.contenedor
+{
+	width: 100%;
+	max-width: 1000px;
+	margin: auto;
+}
+
+.principal
+{
+	position: relative;
+	color: #000;
+}
+
+.titulo
+{
+  padding: 10px;
+	/*background: #fff;*/
+	margin-bottom: 0px;	
+}
+
+.principal 
+{
+	padding: 20px;
+	background: #fff;
+	margin-bottom: 20px;
+}
+.principal article p
+{
+    margin-bottom: 20px;
+    line-height: 24px;
+    font-family: helvetica, arial, sans-serif;
+}
+.principal article .fecha
+{
+    color: #939393;
+}
+
+ /*pie de página */
+.pie
+{
+  text-align: center;
+  color: #ffffff;
+  line-height: 30px;
+  padding:80px 0 20px 0;
+} 
+
+.go-top {
+  display:none;
+  position: fixed;
+  bottom:1em;
+  right: 1em;
+  text-decoration: none;
+  padding: 1em;
+  border-radius:3px;
+}
+.go-top img:hover {
+    transform: scale(1.5);
+    transition: all 0.8s;
+} 
+
+.espacio
+{
+  display: inline-block;
+  margin:0px 15px 0px 15px;
+}
+
+/* animacion a los iconos font-awesome 
+/* Poner modificador::before para aplicar color icono*/
+div.animacion1:hover i {
+  transition: all 1s ease-in-out;
+  transform: rotate(360deg);
+}
+div.animacion2:hover i {
+  transition: all 1s ease-in-out;
+  transform: rotate(360deg);
+  color:cyan;
+}
+div.animacion3:hover i::before {
+  transition: all 1s ease-in-out;
+  color:cyan;
+}
+
+.amenitiessummary
+{
+    /*float: left;*/
+    display: inline-block;
+    background-image: url(http://resources.luxuryretreats.com/www/images/vr5/icons2.png);
+    width: 50px;
+    height: 200px;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+.amenitiesSummary li.bedrooms:before 
+{
+    background-image: url(http://resources.luxuryretreats.com/www/images/vr5/icons2.png);
+    background-position: 50% 0;
+}
+
+.amenitiesSummary li:before 
+{
+    content: "";
+    position: absolute;
+    top: 32px;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    margin: -25px 0 0 -25px;
+}
+
+.info 
+{
+    height: 300px;
+    display: inline-block;
+    /*position: left;*/
+    font-size: 18px;
+    text-align: left;
+
+/*
+    float: left;
+    position: relative;
+    display: block;
+    min-width: 55px;
+    margin-right: 15px;
+    padding-top: 58px;
+    height: 84px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #666;
+    vertical-align: bottom;
+    text-align: center;*/
+}
+
+
+.contenedor1
+{
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.container-fluid1
+{
+  padding-top: 400px;
+  padding-bottom: 400px;
+}
+
+
+.container-fluid0
+{
+  padding-top: 80px;
+  padding-bottom: 80px;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 575px)
+{
+  .fondo1, .fondo2, .fondo3, .fondo4, .fondo5
+  {
+    background-size: 100% 100%;
+  }
+}
+
+/* FONDOS WEB */
+
+.fondoenc
+{
+  color: #ffffff;
+  background-attachment: fixed;
+  background-image: url("../imagenes/fondoenc.jpg");
+  background-size: cover;
+  padding-top: 200px;
+  box-shadow: inset 0 0 0 1000px rgba(178, 39, 135, 0.5);
+  /*agregar infinite alternate para que no se detenga va y vuelve la animacion */
+  animation: slider 3s infinite alternate;
+}
+
+@keyframes slider
+{
+  from{
+    background-position: right center;
+  }
+  to{
+    background-position: left center;
+  }
+}
+
+.fondos0
+{
+  color: #000;
+  background-color: #ccc;
+}
+  
+.fondos1
+{
+  color: #ffffff;
+  background-attachment: fixed;
+  background-image: url("../img/casa3-1.png");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  /*transparencia */
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
+}
+
+  
+.fondos2
+{
+  color: #ffffff;
+  background-attachment: fixed;
+  background-image: url("../imagenes/fondo2.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  /*transparencia */
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
+}

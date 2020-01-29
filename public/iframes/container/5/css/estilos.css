@@ -1,0 +1,239 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.contenedor
+{
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+}
+
+#particles-js
+{
+	width: 100%;
+	height: 200%;
+	position: fixed;
+	background: rgba(0,0,0,.6);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+.fijo{
+
+    position: sticky; 
+    position: fixed; 
+    max-width: 100%;
+    z-index: 1000;
+    width: 1425px;
+ }
+
+ 
+
+.titulo
+{
+	text-align: center;
+	font-family: helvetica;
+	font-size: 60px;
+	margin-bottom: 70px;
+	color: #424242;
+
+}
+
+
+.conteiner1
+{
+   margin-top: 50px;
+   margin-bottom: 50px;
+   height: 100px;
+}
+
+.conteiner2
+{
+  top:77px;
+  width: 100%;
+  height: 810%;
+}
+.card 
+{
+    display: inline-block;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    width: 30%;
+    position: relative;
+    text-align: right;
+    margin-left: 1023px;
+    top: -483px;
+    
+
+
+}
+
+.card-img-top 
+{
+    width: 100%;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+    height: auto;
+}
+
+.card-body 
+{
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+
+.titulo2
+{
+	top: 280px;
+	
+}
+
+.parrafo
+{
+   text-align: center;
+   color: #ffffff;
+   font-size: 60px;
+   font-family: helvetica;
+}
+
+body {
+  margin: 0;
+  font:normal 75% Arial, helvetica, sans-serif;
+}
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+
+.menu2 
+{
+	font-size: 15px;
+	font-family: helvetica;
+	line-height: 20px;
+	display: inline-block;
+	width: 200px;
+	text-align: left;
+	color: #81b44c;;
+}
+
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #81b44c;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-attachment: fixed;
+}
+
+.pie
+{
+  text-align: center;
+  color: #ffffff;
+  line-height: 30px;
+  padding:80px 0 20px 0;
+} 
+
+
+.parallax 
+{ 
+    /* The image used */
+    /*background-image: url("img_parallax.jpg");*/
+
+    /* Set a specific height */
+    /*height: 500px; */
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fondo4 
+{ 
+    background: #2E2E2E; 
+    color: #fff;
+    text-transform: opasity(0.3);
+}
+
+.go-top {
+ /* display:none;*/
+  position: fixed;
+  bottom:1em;
+  right: 1em;
+  text-decoration: none;
+  padding: 1em;
+  border-radius:3px;
+}
+.go-top img:hover {
+    transform: scale(2);
+    transition: all 0.8s;
+} 
+
+
+
+/* pie de página */
+.pie{
+  text-align: center;
+  color: #ffffff;
+  line-height: 30px;
+  padding:80px 0 20px 0;
+} 
+
+
+
+/*espacio entre iconos redes sociales con DIV individuales*/
+/*espacio con un solo div /*margin: 45px;*/
+.espacio{
+  display: inline-block;
+  margin:0px 15px 0px 15px;
+}
+
+
+/* animacion a los iconos font-awesome */
+/* Poner modificador::before para aplicar color icono*/
+div.animacion1:hover i {
+  transition: all 1s ease-in-out;
+  transform: rotate(360deg);
+}
+div.animacion2:hover i {
+  transition: all 1s ease-in-out;
+  transform: rotate(360deg);
+  color:cyan;
+}
+div.animacion3:hover i::before {
+  transition: all 1s ease-in-out;
+  color:cyan;
+}
+
+/*estilos CARRUSEL VIDEOS*/
+.flechas{
+    width: 50%;
+    height: 50%;
+  /*background-color:red;*/
+}
+
+
+
+
+/*Colores de flecha. En la propiedad fill*/
+/*.carousel-control-prev-icon {
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23aa252e' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}*/
+

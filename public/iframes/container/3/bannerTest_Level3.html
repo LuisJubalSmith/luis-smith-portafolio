@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>bannerTest_Level3</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+        <meta name="ad.size" content="width=300,height=250">
+    <style>
+        * { margin:0;padding:0;box-sizing:border-box;}
+        div {position:absolute;background-repeat:no-repeat !important;}
+        #loader{width:100%;height:100%;}
+    </style>
+    <script type="text/javascript"> var clickTag=""; </script>
+	</head>
+    <body>
+    <div id="loader"></div>
+    <div class="banner bannerSize" style="display: none">
+        <div id="frame1">
+            <div id="lunchablesLogo" class="lunchablesLogo sprite"></div>
+            <div id="copy01" class="copy01 sprite"></div>
+        </div>
+        
+        <div id="frame2">
+            <div id="bottomBar"></div>
+            <div id="animal">
+                <div id="shadow" class="shadow sprite"></div>
+                <div id="animalBody" class="animalBody sprite"></div>
+                 <div id="animalHead" class="animalHead sprite"></div>
+                
+            </div>
+
+                <div id="lunch" class="lunch sprite"></div>
+                <div id="copy02" class="copy02 sprite"></div>
+
+              
+                    <div id="topBox"></div>
+                    <div id="hole" class="hole sprite"></div>
+                    <div id="lights" class="lights sprite"></div>
+                    <div id="box">
+                        <div id="animal2" class="animal2 sprite"></div>
+                     </div>
+                    <div id="bottomBox"></div>
+                    <div id="frontHole" class="frontHole sprite"></div>
+               
+             
+        </div>
+
+        <div id="bg"></div>
+    	
+       
+        
+    	<div id="btnExit" class="bannerSize"></div>
+	</div>
+	<!-- Optional depents if CDN is allowed by client <script src="https://s0.2mdn.net/ads/studio/cached_libs/tweenmax_2.0.1_min.js"></script> -->
+	<script src="TweenMax.min.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript">
+    var _btnExit = document.getElementById('btnExit');
+    _btnExit.addEventListener('click', clickTagHandler)
+    function clickTagHandler(){ window.open(window.clickTag);}
+    </script>
+	</body>
+</html>

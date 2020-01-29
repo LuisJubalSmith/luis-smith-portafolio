@@ -1,0 +1,166 @@
+@charset "UTF-8";
+.banner {
+  border: 1px solid #000;
+  background: #eaeadc;
+ overflow: hidden;
+  display: block !important
+}
+
+#btnExit {
+  cursor: pointer;
+  opacity: 0
+}
+
+.bannerSize {
+  width: 300px;
+  height: 250px;
+  
+}
+
+.sprite {display:inline-block; overflow:hidden; background-repeat: no-repeat;background-image:url(sprite_300x250.png);}
+
+.animal2 {width:142px; height:175px; background-position: -546px -143px}
+.animalBody {width:111px; height:131px; background-position: -598px -5px}
+.animalHead {width:83px; height:101px; background-position: -396px -5px}
+.copy01 {width:278px; height:137px; background-position: -5px -143px}
+.copy02 {width:149px; height:133px; background-position: -714px -5px}
+.frontHole {width:113px; height:23px; background-position: -5px -5px}
+.hole {width:111px; height:38px; background-position: -123px -5px}
+.lights {width:253px; height:174px; background-position: -288px -143px}
+.lunch {width:109px; height:123px; background-position: -484px -5px}
+.lunchablesLogo {width:152px; height:52px; background-position: -239px -5px}
+.shadow {width:114px; height:250px; background-position: -693px -143px}
+
+#copy01 {
+  
+  left: 0;
+  
+}
+
+#copy02 {
+  top: 1px;
+  left: 134px;
+  
+
+}
+#animal {
+    width: 150px;
+    height: 346px;
+  
+
+}
+#animalHead {
+    top: -5px;
+    left: 15px;
+  
+
+}
+#animalBody {
+    top: 85px;
+    left: 14px;
+  
+
+}
+#shadow {
+
+  top: -33px;
+  left: -1px;
+  
+}
+#bottomBar {
+  top: 185px;
+  left: 0px;
+  width: 300px;
+  height: 65px;
+  background-color: #f58843;
+  border-top: 3px solid #d5722f;
+
+
+  
+ 
+
+}
+#lunchablesLogo {
+  top: 197px;
+  left: 60px;
+  
+
+}
+#lunch {
+  top: 126px;
+ 
+}
+#frame1 {
+
+  top:0;
+  left: 0;
+  width: 300px;
+  height: 250px;
+  /*background: url('bg.jpg');*/
+
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#efbd43+37,f58944+100 */
+background: #efbd43; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover, #efbd43 37%, #f58944 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover, #efbd43 37%,#f58944 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center, #efbd43 37%,#f58944 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efbd43', endColorstr='#f58944',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+
+#box{
+
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 241px;
+  overflow: hidden;
+
+
+} 
+#bottomBox {
+
+  top: 0px;
+  left: 0px;
+  width: 174px;
+  height: 86px;
+  background: url('bottomBox.png');
+
+}
+#topBox {
+
+  top: 0px;
+  left: 0px; 
+  width: 167px;
+  height: 61px;
+  background: url('topBox.png');
+
+}
+#animal2 {
+
+  top:0px;
+  left: 0px;
+  
+
+}
+#lights {
+  
+  top: :0px;
+  left: 0px;
+  
+
+}
+#hole {
+
+    top: 138px;
+    left: 23px;
+  
+
+}
+#frontHole {
+
+    top: 163px;
+    left: 26px;
+  
+
+}
+

@@ -1,0 +1,256 @@
+@charset "UTF-8";
+
+.banner {
+    border: 1px solid #000;
+    background: #eaeadc;
+    overflow: hidden;
+    display: block !important
+}
+
+#btnExit {
+    cursor: pointer;
+    opacity: 0;
+}
+
+.bannerSize {
+    width: 300px;
+    height: 250px;
+}
+
+.spriteTxt {
+    display: inline-block;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-image: url(spriteTxt_300x250.png);
+}
+
+.bottomBar {
+    width: 300px;
+    height: 50px;
+    background-position: -1px -122px
+}
+
+.cta {
+    width: 107px;
+    height: 30px;
+    background-position: -291px -1px
+}
+
+.ctaTxt {
+    width: 86px;
+    height: 9px;
+    background-position: -1px -1px
+}
+
+.disclaimer {
+    width: 202px;
+    height: 8px;
+    background-position: -88px -1px
+}
+
+.txt1 {
+    width: 111px;
+    height: 89px;
+    background-position: -316px -32px
+}
+
+.txt2 {
+    width: 120px;
+    height: 81px;
+    background-position: -195px -32px
+}
+
+.txt3 {
+    width: 193px;
+    height: 37px;
+    background-position: -1px -32px
+}
+
+
+
+
+#Frame1 {
+    background: url(bg.jpg);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 250px;
+}
+
+#Frame2 {
+    background: url(bg2.jpg);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 250px;
+    opacity: 0;
+}
+
+#bottomBar {
+
+    left: 0px;
+    top: 198px;
+
+}
+
+#philaLogo {
+    height: 40px;
+    width: 72px;
+    background: url(philaLogo.png);
+    left: 6px;
+    top: 210px;
+}
+
+#whippedLogo {
+    height: 17px;
+    width: 61px;
+    background: url(whippedLogo.png);
+    left: 78px;
+    top: 223px;
+}
+
+#product {
+    height: 189px;
+    width: 159px;
+    background: url('product.png');
+    left: 56px;
+    top: 58px;
+
+}
+
+#cta {
+
+    left: 180px;
+    top: 214px;
+    overflow: hidden;
+
+}
+
+#ctaTxt {
+
+    left: 12px;
+    top: 11px;
+}
+
+#shine {
+    position: relative;
+    top: 0px;
+    width: 107x;
+    height: 30px;
+    right: 0px;
+    background-repeat: no-repeat;
+    background-image: rgba(0, 155, 186, 0);
+    background-image: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(0, 155, 186, 0)), color-stop(53%, rgba(255, 255, 255, 0.5)), color-stop(100%, rgba(0, 155, 186, 0)));
+    background-image: linear-gradient(135deg, rgba(0, 155, 186, 0) 0%, rgba(255, 255, 255, 0.5) 53%, rgba(0, 155, 186, 0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#009bba', endColorstr='#009bba', GradientType=1);
+    background-position: -107px 0;
+    text-decoration: none;
+    border: 0;
+    transform: skewY(-4deg);
+}
+
+#disclaimer {
+
+    left: 45px;
+    top: 192px;
+    opacity: 0;
+
+}
+
+#txt1 {
+    left: 92px;
+    top: 59px;
+    opacity: 0;
+}
+
+#txt2 {
+    top: 63px;
+    left: 88px;
+    opacity: 0;
+}
+
+#txt3 {
+    top: 39px;
+    left: 54px;
+
+}
+
+#toast {
+    position: absolute;
+    left: 60px;
+    top: 43px;
+    width: 173px;
+    height: 119px;
+    background: url(toast.png) no-repeat;
+
+}
+
+#toast2 {
+    position: absolute;
+    left: 60px;
+    top: 43px;
+    width: 173px;
+    height: 119px;
+    background: url(toast2.png) no-repeat;
+    opacity: 0;
+
+}
+
+#toast3 {
+    position: absolute;
+    left: 60px;
+    top: 43px;
+    width: 173px;
+    height: 119px;
+    background: url(toast3.png) no-repeat;
+    opacity: 0;
+
+}
+
+#toast4 {
+    position: absolute;
+    left: 60px;
+    top: 43px;
+    width: 173px;
+    height: 119px;
+    background: url(toast4.png) no-repeat;
+    opacity: 0;
+
+}
+
+#toast5 {
+    position: absolute;
+    left: 60px;
+    top: 43px;
+    width: 173px;
+    height: 119px;
+    background: url(toast5.png) no-repeat;
+    opacity: 0;
+
+}
+
+
+#bite1 {
+    position: absolute;
+    left: 60px;
+    top: 43px;
+    width: 173px;
+    height: 119px;
+    background: url(bite1.png) no-repeat;
+    opacity: 0;
+    opacity: 0;
+}
+
+#bite2 {
+    position: absolute;
+    left: 60px;
+    top: 43px;
+    width: 173px;
+    height: 119px;
+    background: url(bite2.png) no-repeat;
+    opacity: 0;
+    opacity: 0;
+
+}
